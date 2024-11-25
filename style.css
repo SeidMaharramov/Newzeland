@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.yuxari{
+    background-image: url(/sekiller/WhatsApp\ Image\ 2024-11-13\ at\ 21.27.57_02139cf8.jpg);
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    overflow-x: hidden;
+}
+.solnav{
+    margin-top: 25px;
+}
+.sagnav{
+    margin-top: 25px;
+}
+nav{
+    
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+   
+}
+
+.sagnav ul{
+    list-style:none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.sagnav ul li{
+    font-size: 20px;
+    margin-right: 30px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.solnav h1{
+    margin-left:25px ;
+    color:brown;
+    font-size: 25px;
+    font-weight: 800;
+}
+.divar {
+    margin-right: 25px;
+    margin-left: 25px;    
+    margin-top:40px ;
+    background-color: aliceblue;
+    height: 2px;
+    
+    
+}
+.divar .qirmizi{
+    position: relative;
+    left: 550px;
+    height: 2px;
+    width: 400px;
+    background-color: brown;
+}
+.axtar input{
+    float: right;
+    margin-right: 25px;
+    margin-top:30px;
+    height: 27px;
+    width: 150px;
+    border-radius: 14px;
+    border: none;
+}
+.axtar input::placeholder{
+    padding-left: 10px;
+    color:brown;
+    font-weight: 800;
+}
+.visit .qirmizi{
+    color:brown;
+}
+.visit .ag{
+    color: aliceblue;
+}
+.visit{
+    margin-left: 25px;
+    margin-top: 160px;
+}
+.visit h1{
+    font-size: 60px;
+}
+.yazilar{
+    align-items: center;
+    margin-top:50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.yazilar .yazisol p{
+    color: aliceblue;
+    max-width: 200px;
+}
+.yaziorta p{
+    max-width: 200px;
+    color:aliceblue;
+}
+.kolge{
+    background: linear-gradient(rgba(0, 0, 0, 0.032),rgba(0, 0, 0, 0.029),rgba(0, 0, 0, 0.197),rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.341),rgba(0, 0, 0, 0.471),rgba(0, 0, 0, 0.496),rgba(0, 0, 0, 0.607));
+    height: 190px;
+}
+
+.yaziorta button{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color:brown;
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.yazisag ul{
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+}
+.yazisag ul li{
+    text-align: right;
+    font-size: 25px;
+    color:aliceblue;
+}
+.yazisag .qirmizi{
+    background-color:brown;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.yazilar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.orta .divar2 {
+    background-color: aliceblue;
+    height: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.divar2 .qirmizi {
+    position: relative;
+    left: 200px;
+    background-color: brown;
+    height: 1px;
+    width: 200px;
+
+}
+
+
+.orta .divar2 p{
+    padding-top:10px;
+    background-color:black;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    border: solid 2px brown;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-weight: 800;
+    color:aliceblue;
+}
+.orta{
+    height: 590px;
+    background-color: rgb(0, 0, 0);
+}
+.orta .sekiller img{
+    height: 350px;
+    width: 250px;
+}
+.sekiller{
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.sekiller .sekil2{
+    height: 390px !important;
+    width: 290px  !important;
+}
+.sekiller .sekil3{
+    height: 390px !important    ;
+    width: 290px !important;
+}
+.sekiller div h1{
+    font-size: 35px;
+   font-weight: 900;
+}
+.sekil1yazi{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sekiller p{
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+    color:aliceblue;
+}
+.sekil1yazi h1{
+    color:brown ;
+    position: relative;
+    top: 35px;
+    right: 90px;
+
+}
+.sekil2yazi h1{
+    color:brown ;
+    position: relative;
+    top: 35px;
+    
+}
+.sekil3yazi h1{
+    color:brown ;
+    position: relative;
+    top: 35px;
+    
+}
+.sekil4yazi h1{
+    color:brown ;
+    position: relative;
+    top: 35px;
+    
+}
+.asagi .sekil img{
+    position:absolute;
+    height: 1000px;
+    width: 2000px;
+}
+.asagi{
+    height: 100px;
+    position:absolute;
+    top: 1360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kolge2{
+    position: absolute;
+    height: 100px;
+    bottom: 100px;
+    background: linear-gradient(black,black,rgba(0, 0, 0, 0.741),rgba(0, 0, 0, 0.598),rgba(0, 0, 0, 0.421),rgba(0, 0, 0, 0.325),rgba(0, 0, 0, 0.218),rgba(0, 0, 0, 0.116),rgba(0, 0, 0, 0.018));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+    
+}
+.kolge2 .yazi1{
+    margin-top: 30px;
+    margin-right: 400px;
+    font-size: 30px;
+    font-weight: 800;
+    color: brown;
+}
+.kolge2 h1{
+    top:120px;
+    position: relative;
+    left: 490px;
+    font-size: 75px;
+    font-weight: 800;
+    color: aliceblue;
+}
+.kolge2 .qirmizi{
+    text-align: right;
+    font-size: 60px;
+    color: brown;
+}
+.plar{
+    position: relative;
+    left: 90px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+
+}
+.plar .yazi2{
+    font-size: 15px;
+    color: aliceblue;
+    max-width: 250px;
+    margin-top: 30px;
+} 
+.yazi3{
+    margin-top: 90px;
+    font-size: 15px;
+    color: aliceblue;
+    max-width: 250px;
+}
+.plar button{
+    margin-top: 20px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 800;
+    width: 100px;
+    border: none;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 15px;
+}
+.divar3 {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 100%;
+    position: relative;
+    top: 700px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.divar3 .qirmizi {
+    position: relative;
+    left: 760px;
+    background-color: brown;
+    height: 3px;
+    width: 100vh;
+
+}
